@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+html {
+box-sizing: border-box;
+font-size: 100%;
+}
+*{
+margin: 0;
+padding: 0;
+}
+*,*:before,*:after {
+box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button{
+outline: none;
+}
+input{
+line-height: normal;
+}
+label,
+button{
+cursor: pointer;
+}
+a {
+text-decoration: none;
+}
+img {
+display: block;
+max-width: 100%;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: url(images/bg-intro-desktop.png);
+  background-size: cover;
+  background-color: hsl(0, 100%, 74%) ;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container > div{
+  flex: 1;
+  padding: 0 20px;
+}
+.container h1{
+  font-size: 40px;
+  line-height: 50px;
+}
+.container p{
+  opacity: 0.8;
+  font-size: 13px;
+}
+.box{
+  box-shadow: 0 6px rgba(0,0,0,.2);
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 24px;
+  text-align: center;
+}
+.box-blue{
+  background-color: hsl(248, 32%, 49%) ;
+}
+.box p{
+ 
+}
+input{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid hsl(249, 10%, 26%) ;
+}
